@@ -1,0 +1,4 @@
+console_width:120
+console_height:30
+responzive:true
+darkmode:false
