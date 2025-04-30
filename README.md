@@ -5,8 +5,6 @@
 
 Terminálový souborový manažer inspirovaný legendárním Midnight Commanderem, napsaný v C#.
 
-![Screenshot aplikace](screenshot.png) <!-- Nahraď skutečným screenshotem -->
-
 ## ✨ Hlavní funkce
 
 - Dvojpanelové rozhraní podobné MC
