@@ -15,7 +15,6 @@ namespace MidnightCommander.Components
             DrawBody(rows, counter, xStart, SelectedIndex, start_index, end_index);
             DrawConsoleInput();
             DrawFooterActionButtons();
-
         }
         private void DrawHeaderRow()
         {
@@ -50,7 +49,6 @@ namespace MidnightCommander.Components
                 if (i == SelectedIndex)
                 {
                     Console.BackgroundColor = ConsoleColor.Blue;
-
                 }
                 else
                 {
@@ -60,15 +58,12 @@ namespace MidnightCommander.Components
                 Console.BackgroundColor = ConsoleColor.Black;
             }
             DrawSelectedFile(rows[SelectedIndex]);
-
         }
         private string CreateBodyLine(Row row)
         {
             // ┌ ┐ └ ┘ ├ ┤ ┬ ┴ ─ │
             int console_width = Config.Instance.Console_Width;
-
             int name_length = console_width / 2 - size_width - mod_width - 4;
-
             string line = "│";
             line += row.Prefix.Text;
             string name = "";
@@ -135,10 +130,9 @@ namespace MidnightCommander.Components
                 Console.BackgroundColor = ConsoleColor.Blue;
                 Console.ForegroundColor = ConsoleColor.Black;
                 System.Console.Write(arr[i][1] + " ");
+                Console.BackgroundColor = ConsoleColor.Black;
+                Console.ForegroundColor = ConsoleColor.White;
             }  
-
         }
-
-
     }
 }

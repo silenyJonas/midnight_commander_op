@@ -21,9 +21,8 @@ namespace MidnightCommander.Managers
         }
         public long GetDriveUsedPercentage()
         {
-            DriveInfo drive = new DriveInfo("C"); 
-            return ((drive.TotalSize - drive.AvailableFreeSpace) / drive.TotalSize) * 100;
-
+            DriveInfo drive = new DriveInfo("C");
+            return (long)(((double)(drive.TotalSize - drive.AvailableFreeSpace) / drive.TotalSize) * 100);
         }
         public string DrawDriveInfo()
         {

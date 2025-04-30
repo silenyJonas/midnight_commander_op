@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\senpa\\Desktop\\midnight_commander\\midnight_commander.csproj": {}
+    "C:\\Users\\senpa\\Desktop\\midnight_commander_op\\midnight_commander.csproj": {}
   },
   "projects": {
-    "C:\\Users\\senpa\\Desktop\\midnight_commander\\midnight_commander.csproj": {
+    "C:\\Users\\senpa\\Desktop\\midnight_commander_op\\midnight_commander.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\senpa\\Desktop\\midnight_commander\\midnight_commander.csproj",
+        "projectUniqueName": "C:\\Users\\senpa\\Desktop\\midnight_commander_op\\midnight_commander.csproj",
         "projectName": "midnight_commander",
-        "projectPath": "C:\\Users\\senpa\\Desktop\\midnight_commander\\midnight_commander.csproj",
+        "projectPath": "C:\\Users\\senpa\\Desktop\\midnight_commander_op\\midnight_commander.csproj",
         "packagesPath": "C:\\Users\\senpa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\senpa\\Desktop\\midnight_commander\\obj\\",
+        "outputPath": "C:\\Users\\senpa\\Desktop\\midnight_commander_op\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -65,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200-preview.0.25057.12/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

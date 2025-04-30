@@ -5,10 +5,11 @@ namespace midnight_commander
 {
     internal class Program
     {
+        
         static void Main(string[] args)
         {
             Console.CursorVisible = false;
-
+            Console.ForegroundColor = ConsoleColor.White;
             Config.Instance.Set("config.txt");
             Config.Instance.Apply();
 
